@@ -2,55 +2,52 @@
     <div class="game-banner">
       <img
         class="game-banner-img"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Chevrongasstation.jpg/220px-Chevrongasstation.jpg"
         alt="background image"
+           {wikidata.logo}
       />
     </div>
     <div class="game-content">
       <div class="details-wrapper">
         <div class="game-header">
-          <h1 class="game-header-title">American multinational </h1>
-          <h1 class="game-header-title">energy corporation</h1>
+          <h1 class="game-header-title">{wikidata.title}</h1>
+          <h1 class="game-header-title">{wikidata.abstract}</h1>
           <br>
           <h2 class="game-header-release-date">
-            Q319642
+            {wikidata.entity}
           </h2>
           <p class="game-header-genres">
           </p>
-          <h2 class="description">American multinational energy corporation</h2>
+      
         </div>
         <br>
         <ul class="list-group">
             
             <li class="list-group-item">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Chevron_Logo.svg/220px-Chevron_Logo.svg.png" alt="">
+                <img src="{wikidata.image}" alt="">
             </li>
             <li class="list-group-item">
                 <h2>Country</h2>
-                United States of America
+                {wikidata.country}
             </li>
             <li class="list-group-item">
                 <h2>Chairperson</h2>
-                John S. Watson
+                {wikidata.chairperson}
             </li>
             <li class="list-group-item">
                 <h2>Industry</h2>
-                Petroleum industry
+                {wikidata.industry}
             </li>
             <li class="list-group-item">
                 <h2>Total revenue</h2>
-                166,339,000,000 United States dollar
+                {wikidata.total_revenue}
             </li>
             <li class="list-group-item">
                 <h2>Subsidiary</h2>
-                <p>- ExtraMile</p>
-                <p>- ExtraMile </p>
-                <p>- Chevron (Netherlands) </p>
-                <p>- Chevron (Australia)</p>
+                {wikidata.subsidiary}
             </li>
             <li class="list-group-item">
                 <h2>Employees</h2>
-                48,600
+                {wikidata.employees}
             </li>
           </ul>
 <br>
